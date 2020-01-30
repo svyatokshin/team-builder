@@ -37,6 +37,7 @@ const TeamForm = props => {
             name="name" 
             onChange={handleChanges} 
             value={member.name}
+            required
             />
             </MarginStyle>
             <MarginStyle>
@@ -46,6 +47,7 @@ const TeamForm = props => {
             name="email" 
             onChange={handleChanges} 
             value={member.email}
+            required
             />
             </MarginStyle>
             <MarginStyle>
@@ -55,6 +57,7 @@ const TeamForm = props => {
             name="role"
             onChange={handleChanges}
             value= {member.role}
+            required
             />
             </MarginStyle>
             <button type="submit">Add Member</button>
